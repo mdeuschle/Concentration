@@ -16,6 +16,7 @@
 		A8089E2E227614C100717DF3 /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E2D227614C100717DF3 /* ConcentrationUITests.swift */; };
 		A8089E412276343800717DF3 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E3F2276343700717DF3 /* Cell.swift */; };
 		A8089E422276343800717DF3 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8089E402276343800717DF3 /* Cell.xib */; };
+		A8089E442276659A00717DF3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E432276659A00717DF3 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A8089E2F227614C100717DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8089E3F2276343700717DF3 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		A8089E402276343800717DF3 /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		A8089E432276659A00717DF3 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		A8089E3E2276184700717DF3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A8089E432276659A00717DF3 /* Theme.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8089E10227614B100717DF3 /* ViewController.swift in Sources */,
+				A8089E442276659A00717DF3 /* Theme.swift in Sources */,
 				A8089E0E227614B100717DF3 /* AppDelegate.swift in Sources */,
 				A8089E412276343800717DF3 /* Cell.swift in Sources */,
 			);
