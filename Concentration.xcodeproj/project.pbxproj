@@ -14,6 +14,8 @@
 		A8089E18227614C000717DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8089E16227614C000717DF3 /* LaunchScreen.storyboard */; };
 		A8089E23227614C100717DF3 /* ConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E22227614C100717DF3 /* ConcentrationTests.swift */; };
 		A8089E2E227614C100717DF3 /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E2D227614C100717DF3 /* ConcentrationUITests.swift */; };
+		A8089E412276343800717DF3 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E3F2276343700717DF3 /* Cell.swift */; };
+		A8089E422276343800717DF3 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8089E402276343800717DF3 /* Cell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A8089E29227614C100717DF3 /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8089E2D227614C100717DF3 /* ConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITests.swift; sourceTree = "<group>"; };
 		A8089E2F227614C100717DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8089E3F2276343700717DF3 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		A8089E402276343800717DF3 /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				A8089E11227614B100717DF3 /* Main.storyboard */,
+				A8089E3F2276343700717DF3 /* Cell.swift */,
+				A8089E402276343800717DF3 /* Cell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -262,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8089E18227614C000717DF3 /* LaunchScreen.storyboard in Resources */,
+				A8089E422276343800717DF3 /* Cell.xib in Resources */,
 				A8089E15227614C000717DF3 /* Assets.xcassets in Resources */,
 				A8089E13227614B100717DF3 /* Main.storyboard in Resources */,
 			);
@@ -290,6 +297,7 @@
 			files = (
 				A8089E10227614B100717DF3 /* ViewController.swift in Sources */,
 				A8089E0E227614B100717DF3 /* AppDelegate.swift in Sources */,
+				A8089E412276343800717DF3 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

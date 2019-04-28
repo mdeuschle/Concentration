@@ -28,26 +28,13 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="Lei-rJ-FSI">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="Lei-rJ-FSI" customClass="Cell" customModule="Concentration" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="139" height="144"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="139" height="144"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZN-wL-pMX">
-                                                    <rect key="frame" x="16" y="60" width="107" height="68"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="80"/>
-                                                    <state key="normal" title="😀"/>
-                                                </button>
-                                            </subviews>
                                         </view>
-                                        <constraints>
-                                            <constraint firstItem="YZN-wL-pMX" firstAttribute="top" secondItem="Lei-rJ-FSI" secondAttribute="topMargin" constant="8" id="4mf-eq-uw8"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="YZN-wL-pMX" secondAttribute="bottom" constant="8" id="8BJ-ja-tNK"/>
-                                            <constraint firstAttribute="trailingMargin" secondItem="YZN-wL-pMX" secondAttribute="trailing" constant="8" id="9ie-8o-bMc"/>
-                                            <constraint firstItem="YZN-wL-pMX" firstAttribute="leading" secondItem="Lei-rJ-FSI" secondAttribute="leadingMargin" constant="8" id="GnJ-Si-qv5"/>
-                                        </constraints>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
