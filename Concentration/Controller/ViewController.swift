@@ -16,7 +16,9 @@ class ViewController: UIViewController {
     @IBOutlet var scoreLabel: UILabel!
     @IBOutlet var playAgainButton: UIButton!
     
-    let mockStrings = ["😀", "☺️", "😇", "😎", "🤓", "🥶"]
+    let mockStrings = ["😀", "☺️", "😇", "😎", "🤓", "🥶", "😀", "☺️", "😇", "😎", "🤓", "🥶"]
+    
+    private let spacing: CGFloat = 16.0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,8 +27,17 @@ class ViewController: UIViewController {
     
     private func configureCollectionView() {
         collectionView.dataSource = self
+        collectionView.delegate = self
         let nib = UINib(nibName: Cell.reuseIdentifier, bundle: nil)
         collectionView.register(nib, forCellWithReuseIdentifier: Cell.reuseIdentifier)
+        let layout = UICollectionViewFlowLayout()
+        layout.sectionInset = UIEdgeInsets(top: spacing,
+                                           left: spacing,
+                                           bottom: spacing,
+                                           right: spacing)
+        layout.minimumLineSpacing = spacing
+        layout.minimumInteritemSpacing = spacing
+        collectionView?.collectionViewLayout = layout
     }
 }
 
@@ -42,6 +53,23 @@ extension ViewController: UICollectionViewDataSource {
         }
         cell.configure(with: mockStrings[indexPath.row])
         return cell
+    }
+}
+
+extension ViewController: UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let numberOfItemsPerRow: CGFloat = 4
+        let spacingBetweenCells: CGFloat = 16
+        
+        let totalSpacing = (2 * self.spacing) + ((numberOfItemsPerRow - 1) * spacingBetweenCells) //Amount of total spacing in a row
+        
+        if let collection = self.collectionView {
+            let width = (collection.bounds.width - totalSpacing)/numberOfItemsPerRow
+            return CGSize(width: width, height: width)
+        }else{
+            return CGSize(width: 0, height: 0)
+        }
     }
 }
 
