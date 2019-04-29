@@ -19,6 +19,7 @@
 		A8089E442276659A00717DF3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E432276659A00717DF3 /* Theme.swift */; };
 		A8089E48227678D600717DF3 /* CollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E47227678D600717DF3 /* CollectionViewFlowLayout.swift */; };
 		A8089E4D22767AA200717DF3 /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E4C22767AA200717DF3 /* CGSizeExtension.swift */; };
+		A8089E4F2276886600717DF3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E4E2276886600717DF3 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		A8089E432276659A00717DF3 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		A8089E47227678D600717DF3 /* CollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		A8089E4C22767AA200717DF3 /* CGSizeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
+		A8089E4E2276886600717DF3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				A8089E432276659A00717DF3 /* Theme.swift */,
+				A8089E4E2276886600717DF3 /* Card.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 			files = (
 				A8089E48227678D600717DF3 /* CollectionViewFlowLayout.swift in Sources */,
 				A8089E10227614B100717DF3 /* ViewController.swift in Sources */,
+				A8089E4F2276886600717DF3 /* Card.swift in Sources */,
 				A8089E4D22767AA200717DF3 /* CGSizeExtension.swift in Sources */,
 				A8089E442276659A00717DF3 /* Theme.swift in Sources */,
 				A8089E0E227614B100717DF3 /* AppDelegate.swift in Sources */,

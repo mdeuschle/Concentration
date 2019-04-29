@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     @IBOutlet var playAgainButton: UIButton!
     
     private let themes = Theme.shared.getThemes()
-    
     private let spacing: CGFloat = 16.0
 
     override func viewDidLoad() {
