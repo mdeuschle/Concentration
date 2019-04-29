@@ -17,6 +17,8 @@
 		A8089E412276343800717DF3 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E3F2276343700717DF3 /* Cell.swift */; };
 		A8089E422276343800717DF3 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8089E402276343800717DF3 /* Cell.xib */; };
 		A8089E442276659A00717DF3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E432276659A00717DF3 /* Theme.swift */; };
+		A8089E48227678D600717DF3 /* CollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E47227678D600717DF3 /* CollectionViewFlowLayout.swift */; };
+		A8089E4D22767AA200717DF3 /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E4C22767AA200717DF3 /* CGSizeExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		A8089E3F2276343700717DF3 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		A8089E402276343800717DF3 /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 		A8089E432276659A00717DF3 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A8089E47227678D600717DF3 /* CollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		A8089E4C22767AA200717DF3 /* CGSizeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		A8089E0C227614B100717DF3 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
+				A8089E4A227679C900717DF3 /* Extensions */,
 				A8089E3E2276184700717DF3 /* Model */,
 				A8089E3D2276184200717DF3 /* View */,
 				A8089E3C2276183A00717DF3 /* Controller */,
@@ -154,6 +159,7 @@
 				A8089E11227614B100717DF3 /* Main.storyboard */,
 				A8089E3F2276343700717DF3 /* Cell.swift */,
 				A8089E402276343800717DF3 /* Cell.xib */,
+				A8089E47227678D600717DF3 /* CollectionViewFlowLayout.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,6 +170,14 @@
 				A8089E432276659A00717DF3 /* Theme.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A8089E4A227679C900717DF3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A8089E4C22767AA200717DF3 /* CGSizeExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +312,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8089E48227678D600717DF3 /* CollectionViewFlowLayout.swift in Sources */,
 				A8089E10227614B100717DF3 /* ViewController.swift in Sources */,
+				A8089E4D22767AA200717DF3 /* CGSizeExtension.swift in Sources */,
 				A8089E442276659A00717DF3 /* Theme.swift in Sources */,
 				A8089E0E227614B100717DF3 /* AppDelegate.swift in Sources */,
 				A8089E412276343800717DF3 /* Cell.swift in Sources */,

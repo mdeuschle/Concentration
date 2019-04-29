@@ -10,6 +10,9 @@ import Foundation
 
 struct Theme {
     
+    static let shared = Theme()
+    private init() {}
+    
     enum Style: Int {
         case halloween
         case love
