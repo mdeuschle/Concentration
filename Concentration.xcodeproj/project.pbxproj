@@ -20,6 +20,8 @@
 		A8089E48227678D600717DF3 /* CollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E47227678D600717DF3 /* CollectionViewFlowLayout.swift */; };
 		A8089E4D22767AA200717DF3 /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E4C22767AA200717DF3 /* CGSizeExtension.swift */; };
 		A8089E4F2276886600717DF3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E4E2276886600717DF3 /* Card.swift */; };
+		A8089E512276958900717DF3 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E502276958900717DF3 /* Concentration.swift */; };
+		A8089E53227699C800717DF3 /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8089E52227699C800717DF3 /* CollectionExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		A8089E47227678D600717DF3 /* CollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		A8089E4C22767AA200717DF3 /* CGSizeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
 		A8089E4E2276886600717DF3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A8089E502276958900717DF3 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		A8089E52227699C800717DF3 /* CollectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,7 @@
 			children = (
 				A8089E432276659A00717DF3 /* Theme.swift */,
 				A8089E4E2276886600717DF3 /* Card.swift */,
+				A8089E502276958900717DF3 /* Concentration.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				A8089E4C22767AA200717DF3 /* CGSizeExtension.swift */,
+				A8089E52227699C800717DF3 /* CollectionExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -320,6 +326,8 @@
 				A8089E4F2276886600717DF3 /* Card.swift in Sources */,
 				A8089E4D22767AA200717DF3 /* CGSizeExtension.swift in Sources */,
 				A8089E442276659A00717DF3 /* Theme.swift in Sources */,
+				A8089E53227699C800717DF3 /* CollectionExtension.swift in Sources */,
+				A8089E512276958900717DF3 /* Concentration.swift in Sources */,
 				A8089E0E227614B100717DF3 /* AppDelegate.swift in Sources */,
 				A8089E412276343800717DF3 /* Cell.swift in Sources */,
 			);
